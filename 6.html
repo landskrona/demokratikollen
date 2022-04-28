@@ -76,30 +76,24 @@ Du behöver sedan ändra ett par saker på varje sida.
         <div class="row">
           <div class="col-lg-12 text-center">
 
-            <div id="correct-answer"><i class="fas fa-star"></i> Rätt svar!</div>
+            <div id="correct-answer"></div>
             <br>
             <br>
-            <br>
+            <h3>Del 2</h3>
 
             <!--Uppgiftens nummer-->
-            <img src="img/sverigesflagga.png">
+            <img src="img/torkild_strandberg.jpg">
             <br>
             <br>
             <h3>Fråga 6</h3>
             <!--Vilket är uppdraget?-->
             <p>
-              I Sverige får alla som fyllt 18 år och<br>
-              är svensk medborgare rösta i alla val.<br>
-              Du får rösta i valet till riksdagen, i regionvalet<br>
-              och i kommunvalet.<br>
-              Om du inte är svensk medborgare får du <br>
-              rösta i regionval och kommunval.<br>
-              Hur många år ska du ha bott i Sverige<br>
-              för att få rösta i region- och kommunval?<br>
-              På sidan 29 i 8-sidors bok "Dags att rösta - Valskola 2022"<br>
-              hittar du information om detta.<br>
+            Mannen på bilden heter Torkild Strandberg. <br>
+            Han är Landskronas ordförande i kommunfullmäktige.<br>
+            Vilket parti är han engagerad i? <br>
               
-              <a href="https://8sidor.se/wp-content/uploads/2022/02/Dags-att-rosta_Valskola2022.pdf" target="_blank">Valskola 2022</a>
+            Du hittar svaret på Landskrona stads hemsida:<br>
+            <a href="https://www.landskrona.se/kommun-politik/politik/politik-politiker/kommunalrad/" target="_blank">Landskrona stad</a>
 
 
             <!--Ibland kanske du vill lägga till en bild i beskrivningen.
@@ -124,7 +118,7 @@ Du behöver sedan ändra ett par saker på varje sida.
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Svar</h2>
-            <h3 class="section-subheading text-muted">Ledtråd: Svara med en siffra.</h3>
+            <h3 class="section-subheading text-muted">Ledtråd: Svara med ett partinamn, inte bara en bokstav.</h3>
           </div>
         </div>
         <div class="row">
@@ -141,7 +135,7 @@ Du behöver sedan ändra ett par saker på varje sida.
       så många uppdrag vi vill.
       -->
             <form id="contactForm" name="sentMessage" novalidate="novalidate" 
-            action="klar_1.html" 
+            action="7.html" 
             onsubmit="return validateForm()" autocomplete="off">
               <div class="row">
                 <div class="col-md-12">
@@ -214,7 +208,7 @@ Du behöver sedan ändra ett par saker på varje sida.
 
       */
 
-      if (answer == "3") {
+      if (answer == "liberalerna") {
           return true;
       }else{
         document.getElementById("answer").value ="";

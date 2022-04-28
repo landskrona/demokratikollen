@@ -76,24 +76,23 @@ Du behöver sedan ändra ett par saker på varje sida.
         <div class="row">
           <div class="col-lg-12 text-center">
 
-            <div id="correct-answer"></div>
+            <div id="correct-answer"><i class="fas fa-star"></i> Rätt svar!</div>
             <br>
             <br>
-            <h3>Del 2</h3>
+            <br>
 
             <!--Uppgiftens nummer-->
-            <img src="img/torkild_strandberg.jpg">
+            <img src="img/fraga.jpg">
             <br>
             <br>
             <h3>Fråga 7</h3>
             <!--Vilket är uppdraget?-->
             <p>
-            Mannen på bilden heter Torkild Strandberg. <br>
-            Han är Landskronas ordförande i kommunfullmäktige.<br>
-            Vilket parti är han engagerad i? <br>
+              Det finns många frågor som engagerar väljarna.<br>
+              Vilken är den viktigaste valfrågan inför valet 2022?<br>
+              På analys- och undersökningsföretaget Novus hittar du svaret.<br>
               
-            Du hittar svaret på Landskrona stads hemsida:<br>
-            <a href="https://www.landskrona.se/kommun-politik/politik/politik-politiker/kommunalrad/" target="_blank">Landskrona stad</a>
+              <a href="https://novus.se/valjarforstaelse-arkiv/viktigaste-politiska-fragan/" target="_blank">Novus</a>
 
 
             <!--Ibland kanske du vill lägga till en bild i beskrivningen.
@@ -118,7 +117,7 @@ Du behöver sedan ändra ett par saker på varje sida.
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Svar</h2>
-            <h3 class="section-subheading text-muted">Ledtråd: Svara med ett partinamn, inte bara en bokstav.</h3>
+            <h3 class="section-subheading text-muted">Ledtråd: Svara med ett ord.</h3>
           </div>
         </div>
         <div class="row">
@@ -208,7 +207,7 @@ Du behöver sedan ändra ett par saker på varje sida.
 
       */
 
-      if (answer == "liberalerna") {
+      if (answer == "sjukvården" || answer == "sjukvård") {
           return true;
       }else{
         document.getElementById("answer").value ="";
